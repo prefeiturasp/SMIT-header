@@ -27,13 +27,13 @@
 			</div>
 			<div class="dropdown">
 				<a id="explore-btn" href="#" class="dropbtn" data-toggle="colapse" data-hover="dropdown">Explore▼</a>
-				<nav id="dropdownmenu">
+			</div>
+			<nav id="dropdownmenu">
 					<a href="https://www.prefeitura.sp.gov.br/cidade/secretarias/inovacao/">Secretaria Municipal de Inovação e Tecnologia</a>
 					<a href="https://011lab.prefeitura.sp.gov.br">(011).Lab</a>
 					<a href="https://copicola.prefeitura.sp.gov.br/">CopiCola</a>
 					<a href="https://premiasampa.prefeitura.sp.gov.br/">Premia Sampa</a>
-				</nav>
-			</div> 
+			</nav> 
 		</header>
 		<script src="assets/js/script.js"></script>
 	</body>

@@ -60,23 +60,24 @@ header {
     background: rgb(226, 226, 226);
 }
 
-.dropdown nav {
+#dropdownmenu {
     display: none;
     position: absolute;
     top: 50px;
-    left: -100%;
+    left: 0;
     border: 1px solid;
     border-color: #c5c5c5;
     background: rgba(255, 255, 255, 0.85);
     overflow-y: hidden;
     box-shadow: 2px 2px 10px rgba(156, 156, 156, 0.39);
+    width: 100%;
 }
 
 .dropdownOpen {
     display: block !important;
 }
 
-.dropdown nav a{
+#dropdownmenu a{
     display: block;
     padding: 0.5rem 1rem;
     border-bottom-style: solid;
@@ -85,11 +86,11 @@ header {
     color: #646464;
     text-decoration: none;
 }
-.dropdown nav a:last-child {
+#dropdownmenu a:last-child {
     border: none;
 }
 
-.dropdown nav a:hover {
+#dropdownmenu a:hover {
     background: rgb(226, 226, 226);
 }
 
