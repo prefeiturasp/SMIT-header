@@ -21,7 +21,7 @@
 						<img src="assets/img/logo_CHI_<?php echo($color); ?>.png" alt="Logo skyline São Paulo Cidade Inteligente e Humana">
 				</div>
 				<div class="col">
-					<img src="assets/img/logo_secretaria.png" alt="Logo brasão Prefeitura de São Paulo, Secretaria de Inovação e Tecnologia.">
+					<img src="assets/img/logo_secretaria_<?php echo($color); ?>.png" alt="Logo brasão Prefeitura de São Paulo, Secretaria de Inovação e Tecnologia.">
 				</div>
 				
 			</div>
