@@ -12,7 +12,8 @@ A implementação pode ser feita em qualquer site de forma rápica copiando e co
 
 ### Código Javascript
 
-`<script>
+`<script>`
+```javascript
     /* auto rezise window by iframe content */
     window.addEventListener("message", receiveMessage, false);
     function receiveMessage(event)
@@ -22,9 +23,11 @@ A implementação pode ser feita em qualquer site de forma rápica copiando e co
             iframe.style.height = event.data + "px";
         }
     }
-</script>`
+```
+`</script>` 
 
-### Código HTML 
+
+### Código HTML iframe
 
 `<iframe id="global-bar" src="https://011lab.prefeitura.sp.gov.br/header/global_header.php" onload="this.contentWindow.postMessage('height', 'https://011lab.prefeitura.sp.gov.br');" scrolling="no" width="100%"></iframe>`
 
