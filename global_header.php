@@ -15,7 +15,7 @@
 		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	</head>
 	<body>
-		<header class="container-flex <?php echo($color);?>">
+		<header id="header" class="container-flex <?php echo($color);?>">
 			<div id="logos" class="container-flex" >
 				<div class="col chi-logo">
 						<img src="assets/img/logo_CHI_<?php echo($color); ?>.png" alt="Logo skyline São Paulo Cidade Inteligente e Humana">
